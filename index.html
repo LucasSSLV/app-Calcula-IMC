@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+<div class="imc-result">
+    <div class="imc">   
+        <h1>IMC</h1>
+        <div class="info">
+        <p>Abixo de 18,5</p>
+        <p>Entre 18,5 e 24,9</p>
+        <p>Entre 25 e 29,9</p>
+        <p>Entre 30 e 34,9</p>
+        <p>Entre 35 e 39,9</p>
+        <p>Acima de 40</p>
+    </div>
+</div>
+
+<div class="result">
+        <h1>Resultado</h1>
+    <div class="info">
+        <p>Abaixo do peso</p>
+        <p>Peso normal</p>
+        <p>Sobrepeso</p>
+        <p>Obesidade grau 1</p>
+        <p>Obesidade grau 2</p>
+        <p>Obesidade grau 3</p>
+    </div>
+</div>
+    
+</div>
+    <section class="container">
+        <h1>Calcule Seu IMC</h1>
+        <div class="infos">
+        <div class="label-1">
+            <label for="input-peso">Peso</label>
+            <input class="peso" type="number" id="input-peso" placeholder="Digite seu peso" />
+        </div>
+        <div class="label-1">
+            <label for="input-altura">Altura</label>
+            <input class="altura" type="number" id="input-altura" placeholder="Digite sua altura" />
+        </div>
+            <button class="buttonCalc" type="submit">Calcular</button>
+        </div class="infos">
+        <div class="resultado"></div>
+    </section>
+</body>
+</html>
